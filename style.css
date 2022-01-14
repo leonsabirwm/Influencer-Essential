@@ -57,6 +57,7 @@ body{
                          .initial-section{
                              display: flex;
                              align-items: center;
+                             margin-bottom: 50px;
                          }
                          .initial-text{
                              margin-right: 133px;
@@ -72,3 +73,121 @@ body{
                          .arrow-right{
                              margin-left: 10px;
                          }
+                        
+/* ==================
+       Styling for Product Section: 
+              ========================*/
+
+
+.product-section{
+    text-align: center;
+}
+.product-section h1{
+    margin: 30px;
+    font-size: 30px;
+    color: #3A3A3A;
+}
+.orange{
+    color: orange;
+}
+.product-details p{
+    font-size:28px ;
+    font-weight: bold;
+}
+.product-details h3{
+    font-size: 24px;
+    font-weight: lighter;
+}
+.product{
+    box-shadow: 10px 10px 30px rgb(212, 212, 212);
+    border-radius: 10px;
+}
+.product-info .product-availablity{
+    color: gray;
+}
+.grey-color{
+    color: gray;
+}
+.product-alignment{
+    padding: 17px 18px;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap:30px 30px ;
+    margin-bottom: 100px;
+}
+/* =================
+           Styling for Footer Section: 
+                  ========================*/
+footer{
+    background-color:rgb(10, 8, 38);
+    color: white;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 90px;
+}
+.footer-elements{
+    padding: 50px 0;
+}
+.social i{
+    font-size: 20px;
+    margin-left: 15px;
+    background-image: linear-gradient(rgb(36, 43, 58),rgb(53, 54, 95));
+    padding: 15px;
+    border-radius: 45%;
+    
+
+}
+.footer-elements>small{
+    margin-bottom: 20px;
+    
+}
+/* ===================
+       Monthly Newsletter Styling:
+           ========================== */
+           .monthly-newsletter{
+               text-align: center;
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+           }
+           .news-title p{
+               margin: 30px 0;
+               font-size: 20px;
+           }
+           .news-input{
+display: flex;
+flex-direction: column;
+width: 30vw;
+;
+font-family: 'Poppins', sans-serif;
+           }
+.news-input input,button{
+    outline: 0;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 20px;
+   
+}
+.news-input input{
+    border-radius: 10px;
+    border: gray 1px solid;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.subscribe-button{
+    border: 0;
+    background-color: #E02C6D;
+    padding:15px 24px 15px 25px ;
+    border-radius: 20px;
+    color: rgb(250, 250, 250);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
