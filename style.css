@@ -24,7 +24,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -73,7 +73,98 @@ body{
                          .arrow-right{
                              margin-left: 10px;
                          }
-                        
+                         .init-image img{
+                             width: 550px;
+                             height: 550px;
+                         }
+                        /* ------------animation---------- */
+                        .influencer-anim{
+                            position: relative;
+                            color: transparent;
+                        }
+                        .influencer-anim::before{
+                            content: 'Influencer';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            color:#E02C6D ;
+                           
+                        }
+                        .initial-section:hover .influencer-anim::before{
+                            animation: typing 3s ease-out infinite;
+                        }
+                        @keyframes typing {
+                            0%{
+                                content: 'I|';
+                            }
+                            6%{
+                                content: 'In|';
+                            }
+                            12%{
+                                content: 'Inf|';
+                            }
+                            18%{
+                                content: 'Infl|';
+                            }
+                            24%{
+                                content: 'Influ|';
+                            }
+                            30%{
+                                content: 'Influe|';
+                            }
+                            36%{
+                                content: 'Influen|';
+                            }
+                            42%{
+                                content: 'Influenc|';
+                            }
+                            48%{
+                                content: 'Influence|';
+                            }
+                            56%{
+                                content: 'Influencer|';
+                            }
+                            60%,88%{
+                                content: 'Influencer|';
+                            }
+                            
+                            89%{
+                                content: 'Influence|';
+                            }
+                            90%{
+                                content: 'Influenc|';
+                            }
+                            91%{
+                                content: 'Influen|';
+                            }
+                           92 %{
+                                content: 'Influe|';
+                            }
+                            93%{
+                                content: 'Influ|';
+                            }
+                           94%{
+                                content: 'Infl|';
+                            }
+                            95%{
+                                content: 'Infr|';
+                            }
+                            96%{
+                                content: 'In|';
+                            }
+                            97%{
+                                content: 'I|';
+                            }
+                           98 %{
+                                content: '|';
+                            }
+                           99%{
+                                content: '|';
+                            }
+                           100%{
+                                content: '|';
+                            }
+                        }
 /* ==================
        Styling for Product Section: 
               ========================*/
