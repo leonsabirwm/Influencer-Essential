@@ -79,8 +79,9 @@
               -------------- */
               @media screen and (min-width:576px) and (max-width:768px)  {
                  body{
-                     margin-left: 15%;
-                     margin-right: 15%;
+                     margin-left: 25%;
+                     
+                     
                  }
               .popular-collection{
                   display: none;
@@ -89,14 +90,14 @@
             .initial-section{display: flex;
                 flex-direction: column;
                 text-align: center;
-               
+               align-items: center;
 
             }
             .initial-text{
                 display: flex;
                 flex-direction: column;
                 order: 2;
-                margin-left: 130px;
+               
             }
 
             .product-sectionx{
