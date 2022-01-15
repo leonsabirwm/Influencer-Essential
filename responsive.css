@@ -8,7 +8,11 @@
 /* ---------initial section---------- */
         .initial-section{
             flex-direction: column;
-            margin: 0 auto;
+           text-align: center;
+        }
+        .initial-text h1{
+            font-size: 32px;
+            white-space: normal;
         }
         .navigation-bar{
             display: none;
@@ -18,6 +22,7 @@
             flex-direction: column;
             order: 2;
             margin: 0 20px;
+            
         }
         .init-image img{
            margin: 0 auto;
@@ -25,17 +30,15 @@
            width: 275px;
            
         }
-        .initial-text
-        .initial-text h1{
-            font-size: 32px;
-            white-space: wrap;
-        }
-        .initial-section{
-           width: 100vw;
-        }
-        .initial-text{
-            margin: 0 30px;
-        }
+        .initial-text p{
+           white-space: normal;
+            font-size: 12px;
+          }
+        
+    
+        
+       
+        
         .logo-text{
             margin: auto;
         }
@@ -43,7 +46,7 @@
             margin:0 2%;
             
         }
-
+    
 
  .popular-collection{
     display: flex;
@@ -56,9 +59,9 @@
     padding: 30px 0;
     display: flex;
     flex-direction: row-reverse;
-    
+  
 }
-
+       }
 /* Newsletter */
 .news-input input{
    
@@ -69,7 +72,7 @@
 .subscribe-button{
     font-size: 12px;
 }
-   }
+  
 
    /*------------------
            Tablets 
@@ -77,6 +80,7 @@
               @media screen and (min-width:576px) and (max-width:768px)  {
                  body{
                      margin-left: 15%;
+                     margin-right: 15%;
                  }
               .popular-collection{
                   display: none;
