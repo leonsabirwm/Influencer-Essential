@@ -236,6 +236,7 @@ footer{
     right: 0;
     text-align: center;
     margin-top: 90px;
+    width: 100vw;
 }
 .footer-elements{
     padding: 50px 0;
@@ -299,4 +300,6 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-
+.product-sectionx{
+    display: none;
+}
