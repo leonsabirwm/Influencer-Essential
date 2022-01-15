@@ -4,10 +4,11 @@
 
        /* Mobile Devices: */
 
-       @media  screen and (max-width:687px) {
+       @media  screen and (max-width:576px) {
 /* ---------initial section---------- */
         .initial-section{
             flex-direction: column;
+            margin: 0 auto;
         }
         .navigation-bar{
             display: none;
@@ -16,6 +17,7 @@
             display: flex;
             flex-direction: column;
             order: 2;
+            margin: 0 20px;
         }
         .init-image img{
            margin: 0 auto;
@@ -23,9 +25,7 @@
            width: 275px;
            
         }
-        .init-image{
-            text-align: center;
-        }
+        .initial-text
         .initial-text h1{
             font-size: 32px;
             white-space: wrap;
@@ -74,8 +74,10 @@
    /*------------------
            Tablets 
               -------------- */
-              @media screen and (min-width:688px) and (max-width:991px)  {
-                  
+              @media screen and (min-width:576px) and (max-width:768px)  {
+                 body{
+                     margin-left: 15%;
+                 }
               .popular-collection{
                   display: none;
               }
@@ -83,6 +85,7 @@
             .initial-section{display: flex;
                 flex-direction: column;
                 text-align: center;
+               
 
             }
             .initial-text{
@@ -95,7 +98,7 @@
             .product-sectionx{
                 display: block;
                 width: 100vw;
-                margin-left: 0;
+                margin-left: 40px;
                 
                 margin-bottom: 90px;
 
@@ -109,6 +112,76 @@
            .px{
                margin-left: 20px;
            }
+           .product-alignment img{
+               width: 150px;
+               height:128px ;
+           }
            
             
               }
+
+
+              /*----------- 
+              Laptop Screen Responsiveness:
+              ---------
+               */
+               @media screen and (min-width:769px) and (max-width:1025px) {
+                .initial-section{
+                    width: 80vw;
+                }
+                .initial-text{
+                  max-width: 30vw;
+                  
+                  font-size: 14px;
+                }
+                .initial-text h1{
+                    font-size: 24px;
+                }
+                .init-image img{
+                    width: 380px;
+                    height: 380px;
+                }
+
+                .popular-collection{
+                    display: none;
+                }
+                .product-sectionx{
+                    display: block;
+                    width: 100vw;
+                    margin-left: 40px;
+                    
+                    margin-bottom: 90px;
+    
+    
+                }
+                .x1,.x2,.x3{
+                    display: flex;
+                    margin-bottom: 20px;
+                
+                }
+               .px{
+                   margin-left: 20px;
+               }
+               .initial-text{
+                margin-right: 30px;
+            }
+            .product-alignment img{
+                width: 225px;
+                height:192px ;
+            }
+            .nav-item{
+                margin-left: 10px;
+                font-size: 14px;
+            }  
+            .header-container{
+                position: relative;
+            } 
+            .navigation-bar{
+                position: absolute;
+                left: 260px;
+                top: 5px;
+            }
+            .logo-text{
+                font-size: 14px;
+            }
+               }
