@@ -15,8 +15,13 @@
             order: 2;
         }
         .init-image img{
-            width: 60vw;
-            height: 50vh;
+           margin: 0 auto;
+           height: 50%;
+           width: 50%;
+           
+        }
+        .init-image{
+            text-align: center;
         }
         .initial-text h1{
             font-size: 32px;
