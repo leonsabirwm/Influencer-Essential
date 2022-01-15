@@ -79,8 +79,11 @@
               -------------- */
               @media screen and (min-width:576px) and (max-width:768px)  {
                  body{
-                     margin-left: 25%;
                      
+                     display: flex;
+                     flex-direction: column;
+                     align-items: center;
+                     justify-content: center;
                      
                  }
               .popular-collection{
@@ -90,9 +93,16 @@
             .initial-section{display: flex;
                 flex-direction: column;
                 text-align: center;
-               align-items: center;
+             
+             
 
             }
+            .init-image img{
+                margin: 0 auto;
+                height: 275px;
+                width: 275px;
+                
+             }
             .initial-text{
                 display: flex;
                 flex-direction: column;
@@ -103,9 +113,10 @@
             .product-sectionx{
                 display: block;
                 width: 100vw;
-                margin-left: 40px;
+                margin-left: 10px;
                 
                 margin-bottom: 90px;
+                position: relative;
 
 
             }
@@ -121,7 +132,9 @@
                width: 150px;
                height:128px ;
            }
-           
+           .nb-there{
+               display: none;
+           }
             
               }
 
@@ -133,6 +146,12 @@
                @media screen and (min-width:769px) and (max-width:1025px) {
                 .initial-section{
                     width: 80vw;
+                }
+                .nb-there{
+                    display: none;
+                }
+                body{
+                    margin-right: 0;
                 }
                 .initial-text{
                   max-width: 30vw;
@@ -151,9 +170,9 @@
                     display: none;
                 }
                 .product-sectionx{
-                    display: block;
-                    width: 100vw;
-                    margin-left: 40px;
+                    display:inline-block;
+                    width: 60vw;
+                   text-align: center;
                     
                     margin-bottom: 90px;
     
@@ -162,7 +181,8 @@
                 .x1,.x2,.x3{
                     display: flex;
                     margin-bottom: 20px;
-                
+                    max-width: 420px;
+                   
                 }
                .px{
                    margin-left: 20px;
@@ -189,4 +209,16 @@
             .logo-text{
                 font-size: 14px;
             }
+               }
+
+
+               /* Maybe Large lapy or desktop */
+               @media screen and (min-width:1026px) and (max-width:1440px){
+                .initial-text{
+                    margin-right: 40px;
+                }
+                .initial-text h1{
+                    font-size: 52px;
+                    white-space: normal;
+                }
                }
